@@ -1,6 +1,6 @@
 ### Main research questions
 
-1. Do vector valued functions benefit from using a correlated RBF representation?
+1. Do operator adapted derivative features improve the accuracy of simulations compared to an RBF representation?
 2. Does preconditioning help when solving non-linear problems?
 
 It turns out that derivative representers improve the accuracy of approximations by an order of magnitude. 
