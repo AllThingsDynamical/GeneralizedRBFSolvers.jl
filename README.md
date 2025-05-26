@@ -11,8 +11,14 @@ It turns out that derivative representers improve the accuracy of approximations
 
 Furthermore, preconditiong with a whitenting transform and the Gamblets transform are ridiculously more efficient than optimization in the canonical bases. 
 
+#### Canonical bases
+
 ![alt text](without_representers_non_linear_poisson.png)
 
+#### Gamblets bases
+
 ![alt text](without_representers_non_linear_poisson_Gamblets.png)
+
+#### Square root or whitening bases
 
 ![alt text](without_representers_non_linear_poisson_whitening.png)
