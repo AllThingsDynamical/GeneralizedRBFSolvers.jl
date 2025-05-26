@@ -2,8 +2,8 @@ include("utils.jl")
 using ForwardDiff
 begin
     domain = ([-pi, pi], [-pi, pi])
-    Nx = 1000
-    NDx = 500
+    Nx = 100
+    NDx = 300
     resolution = (Nx, NDx)
     interior_points, boundary_points = sample_domain(domain, resolution)
     NI = size(interior_points, 2)
